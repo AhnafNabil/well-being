@@ -18,14 +18,14 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-    <Header />
+      <Header/>
       <Routes>
        <Route index element={<Home/>}></Route>
        <Route path="expert" element={<Expert/>}></Route>
        <Route path="ourvalue" element={<Ourvalue/>}></Route>
        <Route path="contactus" element={<Contactus/>}></Route>
        <Route path="getstarted" element={<Getstarted/>}></Route>
-       <Route path="*" element={<Notfound/>}></Route>
+       {/* <Route path="*" element={<Notfound/>}></Route> */}
       </Routes>
     </BrowserRouter>
   );

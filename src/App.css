@@ -3,7 +3,8 @@
     overflow-x: clip;
 }
 .App>:nth-child(1){
-    background: var(--black);
+    /* background: var(--black); */
+    background-color: #003333;
     position: relative;
 }
 .white-gradient{

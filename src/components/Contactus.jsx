@@ -6,7 +6,7 @@ export default function Contactus() {
   return (
     <div>
     {/* <Header></Header> */}
-      contactus
+      Contact Us
     </div>
   )
 }

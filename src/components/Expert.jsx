@@ -4,8 +4,8 @@ import './Header/Header.css';
 export default function Expert() {
   return (
     <div>
-    <Header></Header>
-      expert
+    {/* <Header></Header> */}
+      This is expert page
     </div>
   )
 }

@@ -9,5 +9,5 @@
   margin: -20px 0 50px;
 }
 .gs_header{
-  background-color: #006666;
+  background:var(--black);
 }

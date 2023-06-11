@@ -18,9 +18,9 @@ const Footer = () => {
           <span className="primaryText">Information</span>
           <span className="secondaryText">229 ChawkBazar, Chattogram</span>
           <div className="flexCenter f-menu">
-            <span>Property</span>
+            <span>Location</span>
             <span>Services</span>
-            <span>Product</span>
+            <span>Help</span>
             <span>About Us</span>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import * as Components from './Components';
+import { MdArrowDropDown } from "react-icons/md";
 function Comp() {
     const [signIn, toggle] = React.useState(true);
      return(
@@ -11,7 +12,11 @@ function Comp() {
                      <Components.Input type='email' placeholder='Email' />
                      <Components.Input type='password' placeholder='Password' />
                      <Components.Input type='text' placeholder='Confirm Password' />
-                     <Components.Input type='email' placeholder='Country' />
+                     <Components.Dropdown name="country" id="cntry">
+                        <option value="opt1">Bangladesh</option>
+                        <option value="opt2">Turkey</option>
+                        <option value="opt3">Thailand</option>
+                     </Components.Dropdown>   
                      {/* <Components.Input type='password' placeholder='' /> */}
                      <Components.Button>Sign Up</Components.Button>
                  </Components.Form>

@@ -4,8 +4,7 @@ import './Header/Header.css';
 export default function Ourvalue() {
   return (
     <div>
-    <Header></Header>
-      val
+      Our values
     </div>
   )
 }
